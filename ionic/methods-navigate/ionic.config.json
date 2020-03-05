@@ -1,0 +1,8 @@
+{
+  "name": "myAppTestNAvigate",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

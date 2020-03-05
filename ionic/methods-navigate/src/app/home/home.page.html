@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button [routerLink]="['/test']" routerLinkActive="test" > Go:  Witch RouterLink</ion-button>
+    <ion-button (click)="goTest()"> Go:  Witch Router Angular</ion-button>
+    <ion-button (click)="goTestNav1()"> Go:  Witch NavController FordWard </ion-button>
+    <ion-button (click)="goTestNav2()"> Go:  Witch NavController ForRoot</ion-button>
+    
+  </div>
+</ion-content>
